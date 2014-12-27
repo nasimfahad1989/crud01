@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academic Information</title>
+</head>
+<body>
+<h1>Academic Information</h1>
+<form action="add.php" method="post">
+    <div>
+        <label>Level of Education</label>
+        <select name="academic">
+            <option value="Diploma" selected="selected">Diploma</option>
+            <option value="Bachelor/Honors">Bachelor/Honors</option>
+            <option value="Masters">Masters</option>
+            <option value="Doctoral">Doctoral</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Exam Title* </label>
+        <input type="text" name="exam_title" />
+    </div>
+    <div>
+        <label>Group/Subject* </label>
+        <input type="text" name="subject" />
+    </div>
+    <div>
+        <label>Institution* </label>
+        <select name="institution">
+            <option value="1" selected="selected">--Select Institute--</option>
+            <option value="A One Computer Proskikkon Kendra">A One Computer Proskikkon Kendra</option>
+            <option value="ASA University Bangladesh">ASA University Bangladesh</option>
+            <option value="Asian University for Women">Asian University for Women</option>
+            <option value="Bangladesh University">Bangladesh University</option>
+            <option value="Daffodil International University">Daffodil International University</option>
+        </select>
+    </div>
+    <div>
+        <label>Result Type* </label>
+        <select name="result_type">
+            <option value="Grade" selected="selected">Grade</option>
+            <!--<option value="Others">Others</option>-->
+        </select>
+        <br />
+        <label>Result* </label>
+        <input type="number" name="result" />
+        <label>Scale* </label>
+        <input type="number" name="scale">
+    </div>
+    <div>
+        <label>Passing Year* </label>
+        <input type="number" name="year" />
+    </div>
+    <div>
+        <label>Duration (in Year) </label>
+        <input type="number" name="duration" />
+    </div>
+    <div>
+        <label>Achievement </label>
+        <input type="text" name="achievement" />
+    </div>
+    <div>
+        <input type="submit" name="submit" value="Submit" />
+    </div>
+</form>
+<a href="list.php">Goto List</a>
+</body>
+</html>
