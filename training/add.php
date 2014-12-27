@@ -2,10 +2,10 @@
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "training");
 
 
-$query="INSERT INTO `crud01`.`training_info` (
+$query="INSERT INTO `training`.`training_info` (
 `id` ,
 `training_title` ,
 `training_description` ,

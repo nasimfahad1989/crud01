@@ -3,7 +3,7 @@
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "training");
 
 $query = "select * from training_info;";
 $result = mysqli_query($link, $query);

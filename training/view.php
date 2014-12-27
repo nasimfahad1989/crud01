@@ -5,7 +5,7 @@ $id = $_GET['id'];
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "training");
 
 
 $query = "SELECT * FROM `training_info` WHERE  id= $id";

@@ -2,9 +2,9 @@
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "Reference");
 
-$query="INSERT INTO `crud01`.`reference` (
+$query="INSERT INTO `Reference`.`reference` (
 `id` ,
 `name` ,
 `organization` ,

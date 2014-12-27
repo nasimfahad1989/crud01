@@ -5,9 +5,9 @@ $id = $_GET['id'];
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "Reference");
 
-$query = "DELETE FROM `crud01`.`reference` WHERE `reference`.`id` = $id";
+$query = "DELETE FROM `Reference`.`reference` WHERE `reference`.`id` = $id";
 
 mysqli_query($link, $query);
 

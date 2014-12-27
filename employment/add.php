@@ -1,10 +1,12 @@
 <?php
+//print_r($_POST);
+
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "employment_history");
 
-$query="INSERT INTO `crud01`.`employment` (
+$query="INSERT INTO `employment_history`.`employment` (
 `id` ,
 `company_name` ,
 `company_business` ,
@@ -21,7 +23,7 @@ VALUES (NULL,
 '".$_POST['duration']."', '".$_POST['responsibility']."'
 );";
 
-
+echo $query;
 
 mysqli_query($link, $query);
 

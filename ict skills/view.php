@@ -5,7 +5,7 @@ $id = $_GET['id'];
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "ictskill");
 
 
 $query = "SELECT * FROM `ict_skills` WHERE  id= $id";

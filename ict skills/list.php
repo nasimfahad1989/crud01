@@ -3,7 +3,7 @@
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "crud01");
+    "ictskill");
 
 $query = "select * from ict_skills;";
 
